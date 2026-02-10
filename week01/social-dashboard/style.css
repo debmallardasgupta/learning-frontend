@@ -158,3 +158,32 @@ h2 {
 .small-card.ig::before {
   background: linear-gradient(to right, purple, orange);
 }
+
+
+body.dark {
+  background: #1e202a;
+  color: #ffffff;
+}
+
+body.dark header p,
+body.dark .card h4,
+body.dark .card p,
+body.dark .small-card p {
+  color: #8b97c6;
+}
+
+body.dark .card,
+body.dark .small-card {
+  background: #252b43;
+  box-shadow: none;
+}
+
+body.dark .card:hover,
+body.dark .small-card:hover {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+/* Overview title */
+body.dark h2 {
+  color: #ffffff;
+}
